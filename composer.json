@@ -2,8 +2,8 @@
 	"name": "ssigwart/aws-high-availability-s3",
 	"license": "MIT",
 	"homepage": "https://github.com/ssigwart/aws-high-availability-s3",
-	"description": "Process pool to send tasks to a background task.",
-	"keywords": ["aws", "s3", "high-avilability", "ha", "multi-region"],
+	"description": "Library to make high availability S3 calls.",
+	"keywords": ["aws", "s3", "high-availability", "ha", "multi-region"],
 	"authors": [
 		{
 			"name": "Stephen Sigwart"
