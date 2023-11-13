@@ -1,0 +1,4 @@
+.DS_Store
+/*.code-workspace
+/vendor
+/tests/.phpunit.result.cache

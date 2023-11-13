@@ -1,0 +1,23 @@
+{
+	"name": "ssigwart/aws-high-availability-s3",
+	"license": "MIT",
+	"homepage": "https://github.com/ssigwart/aws-high-availability-s3",
+	"description": "Process pool to send tasks to a background task.",
+	"keywords": ["aws", "s3", "high-avilability", "ha", "multi-region"],
+	"authors": [
+		{
+			"name": "Stephen Sigwart"
+		}
+	],
+	"autoload": {
+		"psr-4": { "ssigwart\\AwsHighAvailabilityS3\\": "src/" }
+	},
+	"readme": "README.md",
+	"require": {
+		"php": ">=8.0.0",
+		"aws/aws-sdk-php": "^3.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^10.4"
+	}
+}
