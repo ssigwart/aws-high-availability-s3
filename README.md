@@ -8,7 +8,7 @@ It includes the following features:
 ## Usage
 
 The APIs require you to pass in an `\Aws\Sdk` object.
-In the exceptions below, `$awsSdk` is used for this object.
+In the examples below, `$awsSdk` is used for this object.
 
 ### Uploading a File
 

@@ -24,7 +24,6 @@ class UnitTestCase extends TestCase
 	 */
 	protected function getMockAwsSdk(): \Aws\Sdk|MockObject
 	{
-		$this->expectedCreateS3CallParams;
 		$mockBuilder = $this->getMockBuilder(\Aws\Sdk::class);
 		$mockBuilder->disableOriginalConstructor();
 		$mockBuilder->disableAutoReturnValueGeneration();
